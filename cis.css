@@ -1,0 +1,293 @@
+.logo {
+    max-width: 120px;
+    max-height: 120px;
+    float: left;
+    padding: 10px 0;
+}
+
+.baslik {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+body {
+    background-color: rgb(197, 175, 142);
+}
+
+.container {
+    width: 100%;
+    margin: 2 auto;
+    gap: 20px;  
+}
+
+header {
+    background: #aa7d1b;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 0px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+.yazi {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.altmenuler {
+    text-align: center;
+    font-size: 25px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.kanzi {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-items: center;
+}
+
+.ortaresim {
+    max-width: 120px;
+    max-height: 120px;
+    padding: 10px 0;
+    margin-right: auto;
+}
+
+.togo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.menuyazilari {
+    text-align: center;
+    text-size-adjust: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.giris_butonu {
+    margin-left: auto;
+    float: right;
+    max-width: 120px;
+    max-height: 60px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.signup_butonu {
+    margin-left: 10px;
+    max-width: 120px;
+    max-height: 60px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.gizliliksoz {
+    text-align: center;
+    padding-bottom: 0%;
+    display: flex; 
+    justify-content: center;
+}
+
+.girisbutonları {
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 200px;
+}
+
+.girisbutonu, .girisyapbutonu {
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bumba {
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    color: #aa7d1b;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-container input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+@import url(//fonts.googleapis.com/css?family=Lato:100,300,300i,400);
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eee;
+  font-weight: 400;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 4px;
+}
+
+h4 {
+  margin-top: 1em;
+  color: #eee;
+  font-size: 150%;
+  font-weight: 300;
+  text-align: center;
+}
+
+button {
+  display: inline;
+  border: 0;
+}
+
+input {
+    display: block;
+    width: 98%;
+  height: 30px; 
+    margin-top: 1.0em;
+   padding: 4px;
+}
+
+small {
+  display: inline-block;
+  margin-top: 5px;
+  color: white;
+  font-size: 100%;
+  color: #fff;
+}
+
+.giriskutusu {
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 60%;
+  height: auto;
+}
+
+.diskutu {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    height: 20em;
+  height: auto;
+}
+
+#girisbutonu {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 2.0em;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.kontrolkutu{
+    margin-left: auto;
+}
